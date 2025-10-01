@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class  _3_LongestSubstringWithoutRepeatingCharacters{} 
+public class  _3_LongestSubstringWithoutRepeatingCharacters{
   public int lengthOfLongestSubstring(String s) {
         Set<Character> set = new HashSet<>();
         int left = 0, maxLen = 0;
@@ -15,5 +15,4 @@ public class  _3_LongestSubstringWithoutRepeatingCharacters{}
         }
         return maxLen;
     }
-
 }
