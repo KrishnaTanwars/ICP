@@ -1,5 +1,3 @@
-package Day_2;
-
 public class _367_ValidPerfectSquare {
     public boolean isPerfectSquare(int num) {
         long left = 1, right = num;
